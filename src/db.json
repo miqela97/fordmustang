@@ -1,0 +1,32 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "make": "Ford",
+      "model": "Mustang",
+      "year": 1966,
+      "image": "https://cdn.dealeraccelerate.com/motorcar/1/1012/23615/1920x1440/1966-ford-mustang-gt"
+    },
+    {
+      "id": 2,
+      "make": "Chevy",
+      "model": "SS",
+      "year": 1966,
+      "image": "https://amazingclassiccars.com/wp-content/uploads/2021/02/1966-chevrolet-chevelle-ss.jpg"
+    },
+    {
+      "id": 3,
+      "make": "Aston Martin",
+      "model": "DB6",
+      "year": 1969,
+      "image": "https://www.classicdriver.com/sites/default/files/cars_images/54694/SA-0013384/8a9db69d5f79d97aa97eb4146cdc4d1b.jpeg"
+    },
+    {
+      "make": "Chevrolet",
+      "image": "https://thumbor-production-auction.hemmings.com/820x545/1933256/img-0712.jpg",
+      "model": "Nova Coupe SS",
+      "year": "1970",
+      "id": 4
+    }
+  ]
+}
