@@ -27,6 +27,13 @@
       "model": "Nova Coupe SS",
       "year": "1970",
       "id": 4
+    },
+    {
+      "make": "Chevrolet",
+      "image": "https://cdn05.carsforsale.com/318887e110efd1ea7988b49f95133c60/800x600/1972-chevrolet-nova.jpg",
+      "model": "Nova",
+      "year": "1972",
+      "id": 5
     }
   ]
 }

@@ -2,9 +2,10 @@ import React from "react";
 import MainPage from "./components/MainPage";
 import '../src/App.css'
 import { useState, useEffect } from "react";
-import {Route, Routes, Link} from "react-router-dom";
+import {Route, Routes} from "react-router-dom";
 import Home from "./components/Pages/Home";
 import Info from "./components/Pages/Info";
+import Navbar from "./components/Navbar";
 
 
 
@@ -39,26 +40,14 @@ import Info from "./components/Pages/Info";
   const onUpdateQuery = event => setQuery(event.target.value)
  const filteredCars = cars.filter((car) => {
   if(query ==="") return true;
-  else return car.make.toLowerCase().includes(query.toLowerCase())
+  else return car.make.toLowerCase().includes(query.toLowerCase()) 
  })
  return (
   <div>
     <div className="header">
       <img src='' alt="" />
       <h1>Car Collection</h1>
-      <nav>
-       
-          <ol>
-            <Link to="/">Home</Link>
-          </ol>
-          <ol>
-            <Link to="/search">search</Link>
-          </ol>
-          <ol>
-            <Link to="/info">Information</Link>
-          </ol>
-       
-      </nav>
+      <Navbar />
     </div>
   <Routes>
     <Route exact path="/"  element={<Home />}/>
